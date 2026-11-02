@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiBar - Registro de Usuario</title>
+    
+    <!-- Bootstrap 5 local -->
+    <link rel="stylesheet" href="estilos_css/bootstrap.css">
+    <!-- Estilos personalizados para la tipografía Arial Black -->
+    <link rel="stylesheet" href="estilos_css/estilo_index.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">OptiBar</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login_usuarios.html">Iniciar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENEDOR PRINCIPAL DEL FORMULARIO DE REGISTRO -->
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-end">
+            <!-- Columna alineada a la derecha igual al Login -->
+            <div class="col-md-6 col-lg-5">
+                <!-- Caja con borde negro sólido -->
+                <div class="p-4 border border-2 border-dark rounded-0 bg-white">
+                    
+                    <h2 class="fw-bold mb-3">Registro de Usuario</h2>
+                    <p class="fs-6 mb-4 texto-arial-black">Crea tu cuenta para disfrutar de OptiBar</p>
+
+                    <form>
+                        <!-- Campo: Nombres -->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Nombres:</label>
+                            <input type="text" class="form-control border border-secondary">
+                        </div>
+
+                        <!-- Campo: Apellidos -->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Apellidos:</label>
+                            <input type="text" class="form-control border border-secondary">
+                        </div>
+
+                        <!-- Campo: Tipo de Documento -->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Tipo de Documento:</label>
+                            <select class="form-select bg-light border border-secondary">
+                                <option selected>Cédula de Ciudadanía</option>
+                                <option value="1">Tarjeta de Identidad</option>
+                                <option value="2">Cédula de Extranjería</option>
+                                <option value="3">Pasaporte</option>
+                            </select>
+                        </div>
+
+                        <!-- Campo: Número de Documento -->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Número de Documento:</label>
+                            <input type="number" class="form-control border border-secondary">
+                        </div>
+
+                        <!-- Campo: Correo Electrónico -->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Correo Electrónico:</label>
+                            <input type="email" class="form-control border border-secondary">
+                        </div>
+
+                        <!-- Campo: Crear Password -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Password:</label>
+                            <input type="password" class="form-control border border-secondary">
+                        </div>
+
+                        <!-- Enlace para volver si ya tiene cuenta -->
+                        <div class="mb-4">
+                            <span class="fs-6">¿Ya tienes una cuenta? </span>
+                            <a href="login_usuarios.html" class="text-primary fw-bold text-decoration-underline">
+                                Inicia sesión
+                            </a>
+                        </div>
+
+                        <!-- Botón Registrarse (Redirecciona visualmente a login_usuarios.html) -->
+                        <div class="text-end">
+                            <a href="login_usuarios.html" class="btn btn-light border border-dark px-4 py-2 fw-bold text-dark text-decoration-none d-inline-block">
+                                Registrarse
+                            </a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
