@@ -7,13 +7,13 @@ body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-/* Fondo cálido ambiente bar */
+/* Fondo con tonos cálidos ambiente bar */
 .fondo-bar-cálido {
     background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
     min-height: 100vh;
 }
 
-/* Contenedor principal para estirar la línea divisoria */
+/* Contenedor principal para estirar la estructura */
 .contenedor-altura-completa {
     min-height: 70vh;
 }
@@ -30,7 +30,7 @@ body {
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro */
+/* Campos de entrada (inputs y selects) en gris más oscuro para mejor contraste */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,14 +38,20 @@ body {
     font-weight: bold;
 }
 
-/* Banner de marca en el lado izquierdo (Gris oscuro con texto blanco grande) */
+/* Banner de marca corregido: más ancho (w-85 o 100%) y eslogan en color beige claro (#f4ebd0) */
 .caja-titulo-marca-oscura {
     background-color: #343a40;
     color: #ffffff;
     border: 3px solid #212529;
     border-radius: 10px;
-    padding: 30px;
+    padding: 35px 20px;
+    width: 85%; /* Ampliado para que OPTIBAR no se salga */
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Color beige claro para el eslogan */
+.texto-eslogan-beige {
+    color: #f4ebd0 !important;
 }
 
 /* Pie de página (Footer) CONÓCENOS en gris oscuro */
