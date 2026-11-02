@@ -3,7 +3,6 @@ body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-/* Clase exclusiva para aplicar Arial Black */
 .texto-arial-black {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
@@ -14,27 +13,33 @@ body {
     min-height: 100vh;
 }
 
-/* Contenedor principal que estira la línea divisoria de arriba a abajo */
 .contenedor-altura-completa {
-    min-height: 75vh;
+    min-height: 70vh;
 }
 
-/* Línea divisoria vertical que va de lado a lado en altura (stretch) */
+/* Línea divisoria vertical */
 .border-divider-vertical {
     border-right: 3px solid #d4a373;
 }
 
-/* Recuadro grande del formulario en un gris claro bien definido */
+/* Recuadro grande del formulario en gris claro */
 .caja-formulario-gris {
-    background-color: #e9ecef !important; /* Gris claro sutil pero notable */
+    background-color: #e9ecef !important;
     border: 2px solid #ced4da;
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) con un color de fondo más oscuro y buen contraste */
+/* Campos de entrada en gris más oscuro */
 .input-fondo-oscuro {
-    background-color: #ced4da !important; /* Gris más oscuro para los campos de info */
-    border: 2px solid #6c757d !important; /* Borde oscuro definido */
+    background-color: #ced4da !important;
+    border: 2px solid #6c757d !important;
     color: #212529 !important;
     font-weight: bold;
+}
+
+/* Pie de página (Footer) CONÓCENOS */
+.footer-conocenos {
+    background-color: #212529;
+    color: #f8f9fa;
+    border-top: 3px solid #d4a373;
 }

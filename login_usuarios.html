@@ -7,10 +7,10 @@
     
     <!-- Bootstrap 5 local -->
     <link rel="stylesheet" href="estilos_css/bootstrap.css">
-    <!-- Estilos personalizados para la tipografía Arial Black -->
-    <link rel="stylesheet" href="estilos_css/estilo_index.css">
+    <!-- Hoja de estilos del login -->
+    <link rel="stylesheet" href="estilos_css/estilo_login.css">
 </head>
-<body>
+<body class="fondo-bar-cálido d-flex flex-column min-vh-100">
 
     <!-- BARRA DE NAVEGACIÓN -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -29,22 +29,33 @@
         </div>
     </nav>
 
-    <!-- CONTENEDOR PRINCIPAL DEL FORMULARIO DE LOGIN -->
-    <div class="container mt-5">
-        <div class="row justify-content-end">
-            <!-- Columna alineada a la derecha -->
-            <div class="col-md-6 col-lg-5">
-                <!-- Caja con borde negro sólido -->
-                <div class="p-4 border border-2 border-dark rounded-0 bg-white">
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="container mt-4 mb-5 flex-grow-1">
+        <div class="row d-flex align-items-stretch contenedor-altura-completa">
+            
+            <!-- COLUMNA IZQUIERDA: Cuadro gris oscuro con OPTIBAR grande -->
+            <div class="col-md-6 border-divider-vertical d-flex align-items-center justify-content-center p-4">
+                <div class="caja-titulo-marca-oscura text-center w-75">
+                    <h1 class="display-1 fw-bold text-white mb-2">OPTIBAR</h1>
+                    <p class="fs-5 text-light text-uppercase mb-0">Bar La Oficina</p>
+                    <small class="text-muted">Administra • Optimiza • Destaca</small>
+                </div>
+            </div>
+
+            <!-- COLUMNA DERECHA: Formulario de Iniciar Sesión -->
+            <div class="col-md-6 d-flex align-items-center p-4">
+                <div class="w-100 p-4 caja-formulario-gris shadow-sm">
                     
-                    <h2 class="fw-bold mb-3">Iniciar Sesión</h2>
-                    <p class="fs-6 mb-4 texto-arial-black">Ingresa tus datos para acceder al sistema</p>
+                    <h4 class="fw-bold mb-2 text-dark">Iniciar Sesión</h4>
+                    <p class="mb-3 text-muted texto-arial-black" style="font-size: 0.75rem;">
+                        Ingresa tus datos para acceder al sistema
+                    </p>
 
                     <form>
                         <!-- Campo: Tipo de Documento -->
-                        <div class="mb-3">
-                            <label class="form-label fw-bold">Tipo de Documento:</label>
-                            <select class="form-select bg-light border border-secondary">
+                        <div class="mb-2">
+                            <label class="form-label fw-bold small mb-1">Tipo de Documento:</label>
+                            <select class="form-select form-select-sm input-fondo-oscuro">
                                 <option selected>Cédula de Ciudadanía</option>
                                 <option value="1">Tarjeta de Identidad</option>
                                 <option value="2">Cédula de Extranjería</option>
@@ -53,35 +64,33 @@
                         </div>
 
                         <!-- Campo: Número de documento -->
-                        <div class="mb-3">
-                            <label class="form-label fw-bold">Número de documento:</label>
-                            <input type="number" class="form-control border border-secondary">
+                        <div class="mb-2">
+                            <label class="form-label fw-bold small mb-1">Número de documento:</label>
+                            <input type="number" class="form-control form-control-sm input-fondo-oscuro">
                         </div>
 
                         <!-- Campo: Password -->
                         <div class="mb-3">
-                            <label class="form-label fw-bold">Password:</label>
-                            <input type="password" class="form-control border border-secondary">
+                            <label class="form-label fw-bold small mb-1">Password:</label>
+                            <input type="password" class="form-control form-control-sm input-fondo-oscuro">
                         </div>
 
-                        <!-- Enlace a Recuperar Contraseña -->
+                        <!-- Enlaces -->
                         <div class="mb-2">
-                            <a href="recuperacion_password.html" class="text-primary fw-bold text-decoration-underline">
+                            <a href="recuperacion_password.html" class="text-primary fw-bold small text-decoration-underline">
                                 Olvidé mi contraseña
                             </a>
                         </div>
-
-                        <!-- Enlace para ir a la pantalla de Registro -->
-                        <div class="mb-4">
-                            <span class="fs-6">¿No tienes cuenta? </span>
-                            <a href="registro_usuarios.html" class="text-primary fw-bold text-decoration-underline">
+                        <div class="mb-3">
+                            <span class="small">¿No tienes cuenta? </span>
+                            <a href="registro_usuarios.html" class="text-primary fw-bold small text-decoration-underline">
                                 Regístrate aquí
                             </a>
                         </div>
 
                         <!-- Botón Ingresar -->
                         <div class="text-end">
-                            <button type="button" class="btn btn-light border border-dark px-4 py-2 fw-bold">
+                            <button type="button" class="btn btn-dark btn-sm px-4 py-1 fw-bold">
                                 Ingresar
                             </button>
                         </div>
@@ -89,8 +98,31 @@
 
                 </div>
             </div>
+
         </div>
     </div>
+
+    <!-- SECCIÓN CONÓCENOS AL FINAL DE LA PÁGINA (FOOTER) -->
+    <footer class="footer-conocenos py-4 mt-auto">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h3 class="fw-bold text-uppercase mb-2">CONÓCENOS</h3>
+                    <p class="small text-muted mb-0">OptiBar - Sistema de gestión para el bar La Oficina.</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h6 class="fw-bold text-uppercase mb-2">Contacto</h6>
+                    <p class="small mb-1"> Teléfono: +57 3185687075</p>
+                    <p class="small mb-0"> Dirección: Bar La Oficina, Centro</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold text-uppercase mb-2">Redes Sociales</h6>
+                    <p class="small mb-1"> Instagram: @OptiBar_Oficial</p>
+                    <p class="small mb-0"> Facebook: OptiBar Colombia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

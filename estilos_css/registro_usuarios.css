@@ -1,0 +1,46 @@
+/* Tipografía Arial Black */
+body {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.texto-arial-black {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+/* Fondo con tonos cálidos ambiente bar */
+.fondo-bar-cálido {
+    background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
+    min-height: 100vh;
+}
+
+/* Contenedor principal para estirar la estructura */
+.contenedor-altura-completa {
+    min-height: 70vh;
+}
+
+/* Línea divisoria vertical */
+.border-divider-vertical {
+    border-right: 3px solid #d4a373;
+}
+
+/* Cuadro grande del formulario en gris claro */
+.caja-formulario-gris {
+    background-color: #e9ecef !important;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+}
+
+/* Campos de entrada (inputs y selects) en gris más oscuro para mejor contraste */
+.input-fondo-oscuro {
+    background-color: #ced4da !important;
+    border: 2px solid #6c757d !important;
+    color: #212529 !important;
+    font-weight: bold;
+}
+
+/* Pie de página (Footer) CONÓCENOS en gris oscuro */
+.footer-conocenos {
+    background-color: #212529;
+    color: #f8f9fa;
+    border-top: 3px solid #d4a373;
+}
