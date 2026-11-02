@@ -9,7 +9,7 @@ body {
 
 /* Fondo con tonos cálidos ambiente bar */
 .fondo-bar-cálido {
-    background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
+    background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%) !important;
     min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@ body {
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro para contraste (Idéntico al login) */
+/* Campos de entrada (inputs y selects) en gris más oscuro para contraste */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,10 +38,10 @@ body {
     font-weight: bold;
 }
 
-/* Caja negra grande y expansiva de la marca (Idéntica al login) */
+/* CAJA NEGRA GRANDE Y EXPANSIVA DE LA MARCA (Idéntica al login) */
 .caja-titulo-marca-oscura {
-    background-color: #343a40;
-    color: #ffffff;
+    background-color: #343a40 !important;
+    color: #ffffff !important;
     border: 3px solid #212529;
     border-radius: 12px;
     padding: 40px 20px;
@@ -66,8 +66,8 @@ body {
 
 /* FOOTER CON TEXTOS PEQUEÑOS Y FINOS (Idéntico al login) */
 .footer-conocenos {
-    background-color: #212529;
-    color: #f8f9fa;
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
     border-top: 3px solid #d4a373;
 }
 
