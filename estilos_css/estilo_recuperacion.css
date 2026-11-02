@@ -38,17 +38,17 @@ body {
     font-weight: bold;
 }
 
-/* TÍTULO OPTIBAR GIGANTE (Idéntico en tamaño y estilo al del login) */
+/* TÍTULO OPTIBAR GIGANTE E IMPONENTE (Ajustado a tamaño grande idéntico al login) */
 .titulo-optibar-gigante {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     letter-spacing: -1px;
     line-height: 1;
     color: #212529;
 }
 
-/* Eslogan en tono beige claro */
+/* Eslogan en tono cálido */
 .texto-eslogan-beige {
-    color: #8b5a2b !important; /* Tono cálido oscuro legible sobre fondo crema */
+    color: #8b5a2b !important;
     font-size: 1.1rem;
 }
 
@@ -60,15 +60,15 @@ body {
 }
 
 .footer-conocenos h3 {
-    font-size: 1.1rem; /* Título Conócenos más pequeño */
+    font-size: 1.1rem;
 }
 
 .footer-conocenos h6 {
-    font-size: 0.75rem; /* Subtítulos Contacto / Redes pequeños */
+    font-size: 0.75rem;
     color: #d4a373;
 }
 
 .footer-conocenos p {
-    font-size: 0.65rem; /* Letra muy pequeña y fina para los datos */
+    font-size: 0.65rem;
     line-height: 1.3;
 }
