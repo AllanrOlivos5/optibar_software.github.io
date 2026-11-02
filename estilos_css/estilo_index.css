@@ -1,0 +1,4 @@
+/* Aplicar Arial Black a todo el contenido del sitio */
+body {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
