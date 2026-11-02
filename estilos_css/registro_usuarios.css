@@ -38,25 +38,26 @@ body {
     font-weight: bold;
 }
 
-/* TÍTULO OPTIBAR SUELTO (Sin caja negra, mismo tamaño gigante en gris oscuro) */
+/* TÍTULO OPTIBAR GIGANTE SUELTO (Mismo tamaño del login en gris oscuro) */
 .titulo-optibar-suelto-oscuro {
-    font-size: 4.8rem;
+    font-size: 5.5rem;
     letter-spacing: -1px;
     line-height: 1;
     white-space: nowrap;
     color: #212529 !important;
 }
 
-/* Subtítulo BAR LA OFICINA en gris oscuro medio */
+/* Subtítulo BAR LA OFICINA */
 .texto-subtitulo-oscuro {
-    color: #495057 !important;
-    font-size: 1.5rem;
+    color: #343a40 !important;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
 }
 
 /* Eslogan en gris oscuro */
 .texto-eslogan-oscuro {
-    color: #6c757d !important;
-    font-size: 1.1rem;
+    color: #495057 !important;
+    font-size: 1.2rem;
 }
 
 /* FOOTER CON TEXTOS PEQUEÑOS Y FINOS */
