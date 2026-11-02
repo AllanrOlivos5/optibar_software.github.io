@@ -1,0 +1,19 @@
+/* Tipografía Arial Black */
+body {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+/* Clase exclusiva para aplicar Arial Black únicamente donde la llamemos */
+.texto-arial-black {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+/* Fondo con tonos cálidos ambiente bar */
+.fondo-bar-cálido {
+    background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
+}
+
+/* Línea divisoria vertical entre las dos columnas */
+.border-divider-vertical {
+    border-right: 3px solid #d4a373;
+}
