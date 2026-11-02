@@ -13,9 +13,9 @@ body {
     min-height: 100vh;
 }
 
-/* Barra de búsqueda centrada en el Navbar */
+/* Barra de búsqueda larga y centrada estilo Éxito */
 .caja-busqueda-navbar {
-    max-width: 500px;
+    max-width: 650px;
     width: 100%;
 }
 
@@ -24,17 +24,17 @@ body {
     font-weight: normal;
 }
 
-/* Cuadro principal del Index */
+/* Cuadro principal del Index en gris claro */
 .caja-bienvenida-gris {
     background-color: #e9ecef !important;
     border: 2px solid #ced4da;
     border-radius: 12px;
 }
 
-/* Footer compacto */
+/* FOOTER IDÉNTICO AL DE LAS DEMÁS PÁGINAS (Fondo oscuro, texto fino y pequeño) */
 .footer-conocenos {
-    background-color: #212529;
-    color: #f8f9fa;
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
     border-top: 3px solid #d4a373;
 }
 
