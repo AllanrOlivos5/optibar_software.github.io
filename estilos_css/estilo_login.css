@@ -38,22 +38,23 @@ body {
     font-weight: bold;
 }
 
-/* Cuadro oscuro izquierdo con padding horizontal más estrecho para aprovechar el ancho */
+/* Cuadro oscuro izquierdo abarcando casi todo el espacio */
 .caja-titulo-marca-oscura {
     background-color: #343a40;
     color: #ffffff;
     border: 3px solid #212529;
     border-radius: 12px;
-    padding: 45px 10px; 
-    width: 95%;
+    padding: 40px 5px; /* Casi sin padding horizontal para dar máximo espacio */
+    width: 98%;        /* Ocupa todo el ancho posible */
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-/* TITULO OPTIBAR MÁXIMO TAMAÑO (Llega casi a los bordes) */
-.titulo-optibar-maximo {
-    font-size: 4.5rem; 
-    letter-spacing: 1px;
-    line-height: 1.1;
+/* TÍTULO OPTIBAR GIGANTE AL MÁXIMO (Llega a los bordes del recuadro negro) */
+.titulo-optibar-extragrande {
+    font-size: 5.8rem; 
+    letter-spacing: -2px; /* Letras juntas para que encajen perfectas a lo ancho */
+    line-height: 1;
+    white-space: nowrap;  /* Evita que se baje de línea */
 }
 
 /* Eslogan en tono beige claro */
