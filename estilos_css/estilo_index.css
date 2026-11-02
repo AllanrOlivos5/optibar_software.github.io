@@ -13,15 +13,15 @@ body {
     min-height: 100vh;
 }
 
-/* Barra de búsqueda larga y centrada estilo Éxito */
+/* BARRA DE BÚSQUEDA LARGA HORIZONTALMENTE (Ocupa el espacio central) */
 .caja-busqueda-navbar {
-    max-width: 650px;
-    width: 100%;
+    width: 60%; /* Extensión a lo largo del navbar */
 }
 
 .caja-busqueda-navbar input {
     font-family: Arial, sans-serif;
     font-weight: normal;
+    border-radius: 6px !important;
 }
 
 /* Cuadro principal del Index en gris claro */
@@ -31,7 +31,7 @@ body {
     border-radius: 12px;
 }
 
-/* FOOTER IDÉNTICO AL DE LAS DEMÁS PÁGINAS (Fondo oscuro, texto fino y pequeño) */
+/* FOOTER ESTÁNDAR */
 .footer-conocenos {
     background-color: #212529 !important;
     color: #f8f9fa !important;
