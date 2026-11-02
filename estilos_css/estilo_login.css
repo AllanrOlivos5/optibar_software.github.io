@@ -38,29 +38,29 @@ body {
     font-weight: bold;
 }
 
-/* Cuadro oscuro izquierdo abarcando casi todo el espacio */
+/* CAJA NEGRA GRANDE Y EXPANSIVA (Ocupa todo el ancho de su columna) */
 .caja-titulo-marca-oscura {
     background-color: #343a40;
     color: #ffffff;
     border: 3px solid #212529;
     border-radius: 12px;
-    padding: 40px 5px; /* Casi sin padding horizontal para dar máximo espacio */
-    width: 98%;        /* Ocupa todo el ancho posible */
-    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    padding: 50px 20px;
+    width: 100%;       /* ¡Ahora abarca todo el ancho de la columna izquierda! */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
-/* TÍTULO OPTIBAR GIGANTE AL MÁXIMO (Llega a los bordes del recuadro negro) */
-.titulo-optibar-extragrande {
-    font-size: 5.8rem; 
-    letter-spacing: -2px; /* Letras juntas para que encajen perfectas a lo ancho */
+/* TÍTULO OPTIBAR GIGANTE AL BORDE DEL NUEVO CUADRO GRANDE */
+.titulo-optibar-imponente {
+    font-size: 5.5rem;  /* Tamaño masivo */
+    letter-spacing: -1px;
     line-height: 1;
-    white-space: nowrap;  /* Evita que se baje de línea */
+    white-space: nowrap;
 }
 
 /* Eslogan en tono beige claro */
 .texto-eslogan-beige {
     color: #f4ebd0 !important;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 
 /* Pie de página (Footer) CONÓCENOS */
