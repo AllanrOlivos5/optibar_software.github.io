@@ -38,15 +38,21 @@ body {
     font-weight: bold;
 }
 
-/* TÍTULO OPTIBAR IDÉNTICO AL DEL LOGIN (Grande, Arial Black, Mayúsculas) */
-.titulo-optibar-recuperacion {
+/* TÍTULO OPTIBAR GIGANTE (Idéntico en tamaño y estilo al del login) */
+.titulo-optibar-gigante {
     font-size: 4.5rem;
     letter-spacing: -1px;
     line-height: 1;
     color: #212529;
 }
 
-/* Pie de página (Footer) CONÓCENOS (Mismos tamaños exactos del Login) */
+/* Eslogan en tono beige claro */
+.texto-eslogan-beige {
+    color: #8b5a2b !important; /* Tono cálido oscuro legible sobre fondo crema */
+    font-size: 1.1rem;
+}
+
+/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS */
 .footer-conocenos {
     background-color: #212529;
     color: #f8f9fa;
@@ -54,15 +60,15 @@ body {
 }
 
 .footer-conocenos h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem; /* Título Conócenos más pequeño */
 }
 
 .footer-conocenos h6 {
-    font-size: 0.85rem;
+    font-size: 0.75rem; /* Subtítulos Contacto / Redes pequeños */
     color: #d4a373;
 }
 
 .footer-conocenos p {
-    font-size: 0.75rem;
-    line-height: 1.4;
+    font-size: 0.65rem; /* Letra muy pequeña y fina para los datos */
+    line-height: 1.3;
 }
