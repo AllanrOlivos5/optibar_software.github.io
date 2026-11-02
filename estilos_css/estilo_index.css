@@ -13,31 +13,44 @@ body {
     min-height: 100vh;
 }
 
-/* Barra de búsqueda larga horizontalmente */
+/* BARRA DE BÚSQUEDA MOVIDA A LA DERECHA Y LARGA */
 .caja-busqueda-navbar {
-    width: 50%;
+    width: 55%;
+    margin-left: 3rem; /* Desplazamiento hacia la derecha */
 }
 
 .caja-busqueda-navbar input {
     font-family: Arial, sans-serif;
-    font-weight: normal;
+    font-weight: bold !important; /* Texto interno en negrita */
     border-radius: 6px !important;
 }
 
-/* Estilos para la marca y eslogan reubicados en la esquina superior derecha */
+/* Estilos para que el texto del placeholder también sea negrita en navegadores compatibles */
+.caja-busqueda-navbar input::placeholder {
+    font-weight: bold !important;
+    color: #495057;
+}
+
+/* Evitar que los enlaces del navbar se dividan */
+.nav-link {
+    white-space: nowrap;
+}
+
+/* Estilos para la marca y eslogan en la esquina superior derecha */
 .marca-superior-derecha {
     line-height: 1.1;
+    white-space: nowrap;
 }
 
 .titulo-optibar-header {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: -0.5px;
     color: #ffffff;
     margin: 0;
 }
 
 .eslogan-optibar-header {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     color: #d4a373;
     margin: 0;
     letter-spacing: 0.5px;
