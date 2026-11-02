@@ -1,10 +1,53 @@
-/* Tipografía Arial Black para el index */
+/* Tipografía Arial Black general */
 body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-/* Personalización del contenedor principal (Hero) */
-.hero-caja {
-    background-color: #f8f9fa;
-    border-radius: 15px;
+.texto-arial-black {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+/* Fondo cálido ambiente bar */
+.fondo-bar-cálido {
+    background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
+    min-height: 100vh;
+}
+
+/* Barra de búsqueda centrada en el Navbar */
+.caja-busqueda-navbar {
+    max-width: 500px;
+    width: 100%;
+}
+
+.caja-busqueda-navbar input {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+/* Cuadro principal del Index */
+.caja-bienvenida-gris {
+    background-color: #e9ecef !important;
+    border: 2px solid #ced4da;
+    border-radius: 12px;
+}
+
+/* Footer compacto */
+.footer-conocenos {
+    background-color: #212529;
+    color: #f8f9fa;
+    border-top: 3px solid #d4a373;
+}
+
+.footer-conocenos h3 {
+    font-size: 1.1rem;
+}
+
+.footer-conocenos h6 {
+    font-size: 0.75rem;
+    color: #d4a373;
+}
+
+.footer-conocenos p {
+    font-size: 0.65rem;
+    line-height: 1.3;
 }

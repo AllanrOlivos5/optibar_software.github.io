@@ -3,76 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OptiBar - Inicio</title>
+    <title>OptiBar - Página Principal</title>
     
-    <!-- Enlace a Bootstrap 5 local -->
+    <!-- Bootstrap 5 local -->
     <link rel="stylesheet" href="estilos_css/bootstrap.css">
-    <!-- Enlace a tus estilos personalizados -->
+    <!-- Hoja de estilos exclusiva del index -->
     <link rel="stylesheet" href="estilos_css/estilo_index.css">
 </head>
-<body>
+<body class="fondo-bar-cálido d-flex flex-column min-vh-100">
 
-    <!-- 1. BARRA DE NAVEGACIÓN (Navbar) -->
-    <!-- navbar: define la barra de navegación -->
-    <!-- navbar-expand-lg: hace que el menú se adapte en pantallas grandes -->
-    <!-- navbar-dark bg-dark: le da un estilo de fondo oscuro con letras claras -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+    <!-- BARRA DE NAVEGACIÓN ESTILO ÉXITO CON BÚSQUEDA Y MARCA EN MAYÚSCULAS -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
             
-            <!-- Logo o Nombre de la marca -->
-            <a class="navbar-brand fw-bold" href="index.html">OptiBar</a>
-            
-            <!-- Botón desplegable para dispositivos móviles (hamburguesa) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- MARCA EN MAYÚSCULAS -->
+            <a class="navbar-brand fw-bold fs-3 text-white m-0" href="index.html">OPTIBAR</a>
 
-            <!-- Enlaces del menú alineados a la derecha (justify-content-end) -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+            <!-- BARRA DE BÚSQUEDA CENTRADA -->
+            <div class="caja-busqueda-navbar mx-lg-4 my-2 my-lg-0 flex-grow-1 flex-lg-grow-0">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-1 form-control-sm rounded-start" type="search" placeholder="Buscar productos, bebidas, servicios..." aria-label="Buscar">
+                    <button class="btn btn-warning btn-sm fw-bold px-3" type="submit">
+                        🔍
+                    </button>
+                </form>
+            </div>
+
+            <!-- ENLACES DE NAVEGACIÓN -->
+            <div class="d-flex align-items-center">
+                <ul class="navbar-nav flex-row gap-3">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active fw-bold" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <!-- Enlace que dirige al archivo de inicio de sesión que ya tienes creado en tu repositorio -->
-                        <a class="nav-link" href="login_usuarios.html">Iniciar Sesión</a>
+                        <a class="nav-link fw-bold" href="login_usuarios.html">Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
-    <!-- 2. SECCIÓN PRINCIPAL (Hero Section) -->
-    <!-- container: centra el contenido y deja márgenes a los lados -->
-    <!-- mt-5: margen superior (margin-top) para separar la barra de navegación -->
-    <div class="container mt-5">
-        
-        <!-- p-5: espacio interior grande (padding) -->
-        <!-- bg-light: fondo de color claro -->
-        <!-- rounded-3: esquinas redondeadas -->
-        <!-- shadow-sm: añade una pequeña sombra elegante -->
-        <!-- text-center: centra todo el texto horizontalmente -->
-        <div class="p-5 mb-4 bg-light rounded-3 shadow-sm text-center">
-            <div class="container-fluid py-5">
-                
-                <!-- Título principal -->
-                <h1 class="display-5 fw-bold text-dark">OptiBar</h1>
-                
-                <!-- Eslogan oficial del proyecto extraído de la documentación -->
-                <p class="fs-5 text-muted fw-semibold mb-3">Administra • Optimiza • Destaca</p>
-                
-                <!-- Descripción basada en la problemática y objetivos del bar "La Oficina" -->
-                <p class="col-md-8 fs-5 mx-auto text-secondary">
-                    Plataforma integral para la gestión de inventarios, automatización de facturación, acumulación de puntos en billetera digital y solicitud de conductor elegido para un retorno vial seguro.
-                </p>
-                
-                <!-- Botón de llamada a la acción que lleva al login -->
-                <a href="login_usuarios.html" class="btn btn-dark btn-lg mt-3">Ingresar al Sistema</a>
+    <!-- CONTENEDOR PRINCIPAL / CONTENIDO DEL INDEX -->
+    <div class="container mt-5 mb-5 flex-grow-1 d-flex align-items-center justify-content-center">
+        <div class="col-md-10 p-5 caja-bienvenida-gris text-center shadow">
+            <h1 class="fw-bold display-4 text-dark mb-2">OPTIBAR</h1>
+            <p class="fs-5 fw-bold text-secondary mb-4">Administra • Optimiza • Destaca</p>
+            <p class="text-muted fs-6 col-md-9 mx-auto mb-4">
+                Plataforma integral para la gestión de inventarios, automatización de facturación, acumulación de puntos en billetera digital y solicitud de conductor elegido para un retorno vial seguro.
+            </p>
+            <div>
+                <a href="login_usuarios.html" class="btn btn-dark btn-lg px-4 py-2 fw-bold text-decoration-none">
+                    Ingresar al Sistema
+                </a>
             </div>
         </div>
     </div>
 
-    <!-- Script de Bootstrap 5 indispensable para que el menú de celulares funcione -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SECCIÓN CONÓCENOS (FOOTER) -->
+    <footer class="footer-conocenos py-3 mt-auto">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-2 mb-md-0">
+                    <h3 class="fw-bold text-uppercase mb-1">CONÓCENOS</h3>
+                    <p class="text-muted mb-0">OptiBar - Sistema de gestión para el bar La Oficina.</p>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                    <h6 class="fw-bold text-uppercase mb-1">Contacto</h6>
+                    <p class="mb-0">Teléfono: +57 300 123 4567</p>
+                    <p class="mb-0">Dirección: Bar La Oficina, Centro</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold text-uppercase mb-1">Redes Sociales</h6>
+                    <p class="mb-0">Instagram: @OptiBar_Oficial</p>
+                    <p class="mb-0">Facebook: OptiBar Colombia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
