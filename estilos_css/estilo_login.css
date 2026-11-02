@@ -38,41 +38,46 @@ body {
     font-weight: bold;
 }
 
-/* 1. CUADRO OSCURO IZQUIERDO MÁS GRANDE */
+/* Cuadro oscuro izquierdo */
 .caja-titulo-marca-oscura {
     background-color: #343a40;
     color: #ffffff;
     border: 3px solid #212529;
     border-radius: 12px;
-    padding: 50px 30px; /* Más padding para mayor presencia */
-    width: 95%;         /* Ocupa casi todo el ancho de su columna */
+    padding: 45px 15px; /* Padding ajustado para dar más espacio a los lados */
+    width: 95%;
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-/* Eslogan en tono beige claro resaltado */
+/* TITULO OPTIBAR GIGANTE CASI AL MARGEN */
+.titulo-optibar-gigante {
+    font-size: 3.6rem; /* Tamaño extra grande para ocupar todo el ancho */
+    letter-spacing: 2px;
+}
+
+/* Eslogan en tono beige claro */
 .texto-eslogan-beige {
     color: #f4ebd0 !important;
     font-size: 1.1rem;
 }
 
-/* 2. FOOTER (CONÓCENOS) CON INFORMACIÓN MÁS PEQUEÑA */
+/* Pie de página (Footer) CONÓCENOS */
 .footer-conocenos {
     background-color: #212529;
     color: #f8f9fa;
     border-top: 3px solid #d4a373;
 }
 
-/* Estilos de texto compacto para los datos del footer */
 .footer-conocenos h3 {
     font-size: 1.3rem;
 }
 
 .footer-conocenos h6 {
     font-size: 0.85rem;
-    color: #d4a373; /* Tono cálido en los títulos pequeños */
+    color: #d4a373;
 }
 
 .footer-conocenos p {
-    font-size: 0.75rem; /* Letra más pequeña para los datos */
+    font-size: 0.75rem;
     line-height: 1.4;
 }
