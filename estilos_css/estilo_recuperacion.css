@@ -11,22 +11,30 @@ body {
 /* Fondo con tonos cálidos ambiente bar */
 .fondo-bar-cálido {
     background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
+    min-height: 100vh;
 }
 
-/* Línea divisoria vertical entre las dos columnas */
+/* Contenedor principal que estira la línea divisoria de arriba a abajo */
+.contenedor-altura-completa {
+    min-height: 75vh;
+}
+
+/* Línea divisoria vertical que va de lado a lado en altura (stretch) */
 .border-divider-vertical {
     border-right: 3px solid #d4a373;
 }
 
-/* Cuadro del formulario con gris claro sutil y bordes redondeados suaves */
-.caja-formulario-sutil {
-    background-color: #f1f3f5; /* Gris claro sutil */
-    border: 1px solid #ced4da;
+/* Recuadro grande del formulario en un gris claro bien definido */
+.caja-formulario-gris {
+    background-color: #e9ecef !important; /* Gris claro sutil pero notable */
+    border: 2px solid #ced4da;
     border-radius: 8px;
 }
 
-/* Campos de entrada con bordes más oscuros y definidos */
-.input-personalizado {
-    border: 2px solid #495057 !important; /* Gris oscuro/carbón para mayor contraste */
-    background-color: #ffffff;
+/* Campos de entrada (inputs y selects) con un color de fondo más oscuro y buen contraste */
+.input-fondo-oscuro {
+    background-color: #ced4da !important; /* Gris más oscuro para los campos de info */
+    border: 2px solid #6c757d !important; /* Borde oscuro definido */
+    color: #212529 !important;
+    font-weight: bold;
 }
