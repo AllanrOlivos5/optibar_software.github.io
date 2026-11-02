@@ -3,7 +3,7 @@ body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-/* Clase exclusiva para aplicar Arial Black únicamente donde la llamemos */
+/* Clase exclusiva para aplicar Arial Black */
 .texto-arial-black {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
@@ -16,4 +16,17 @@ body {
 /* Línea divisoria vertical entre las dos columnas */
 .border-divider-vertical {
     border-right: 3px solid #d4a373;
+}
+
+/* Cuadro del formulario con gris claro sutil y bordes redondeados suaves */
+.caja-formulario-sutil {
+    background-color: #f1f3f5; /* Gris claro sutil */
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+/* Campos de entrada con bordes más oscuros y definidos */
+.input-personalizado {
+    border: 2px solid #495057 !important; /* Gris oscuro/carbón para mayor contraste */
+    background-color: #ffffff;
 }
