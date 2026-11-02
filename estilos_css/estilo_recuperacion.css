@@ -1,4 +1,4 @@
-/* Tipografía Arial Black */
+/* Tipografía Arial Black general */
 body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
@@ -7,7 +7,7 @@ body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-/* Fondo con tonos cálidos ambiente bar */
+/* Fondo cálido ambiente bar */
 .fondo-bar-cálido {
     background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
     min-height: 100vh;
@@ -30,7 +30,7 @@ body {
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro */
+/* Campos de entrada en gris más oscuro */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,24 +38,35 @@ body {
     font-weight: bold;
 }
 
-/* TÍTULO OPTIBAR GIGANTE E IMPONENTE (Ajustado a tamaño grande idéntico al login) */
-.titulo-optibar-gigante {
-    font-size: 5.5rem;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: #212529;
+/* Estilos para la marca y eslogan en la esquina superior derecha del Navbar */
+.marca-superior-derecha {
+    line-height: 1.1;
+    white-space: nowrap;
 }
 
-/* Eslogan en tono cálido */
-.texto-eslogan-beige {
-    color: #8b5a2b !important;
-    font-size: 1.1rem;
+.titulo-optibar-header {
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin: 0;
 }
 
-/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS */
+.eslogan-optibar-header {
+    font-size: 0.55rem;
+    color: #d4a373;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* Enlaces del navbar de corrido */
+.nav-link {
+    white-space: nowrap;
+}
+
+/* FOOTER ESTÁNDAR */
 .footer-conocenos {
-    background-color: #212529;
-    color: #f8f9fa;
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
     border-top: 3px solid #d4a373;
 }
 
