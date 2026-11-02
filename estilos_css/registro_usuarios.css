@@ -30,7 +30,7 @@ body {
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro */
+/* Campos de entrada (inputs y selects) en gris más oscuro para contraste */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,18 +38,29 @@ body {
     font-weight: bold;
 }
 
-/* TÍTULO OPTIBAR GIGANTE (Idéntico a recuperación de contraseña) */
-.titulo-optibar-gigante {
-    font-size: 4.5rem;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: #212529;
+/* CAJA NEGRA GRANDE Y EXPANSIVA (Idéntica a la del Login) */
+.caja-titulo-marca-oscura {
+    background-color: #343a40;
+    color: #ffffff;
+    border: 3px solid #212529;
+    border-radius: 12px;
+    padding: 50px 20px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
-/* Eslogan en tono cálido */
+/* TÍTULO OPTIBAR GIGANTE E IMPONENTE */
+.titulo-optibar-imponente {
+    font-size: 5.2rem;
+    letter-spacing: -1px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+/* Eslogan en tono beige claro */
 .texto-eslogan-beige {
-    color: #8b5a2b !important;
-    font-size: 1.1rem;
+    color: #f4ebd0 !important;
+    font-size: 1.15rem;
 }
 
 /* FOOTER CON TEXTOS PEQUEÑOS Y FINOS */
