@@ -12,23 +12,30 @@
 </head>
 <body class="fondo-bar-cálido d-flex flex-column min-vh-100">
 
-    <!-- BARRA DE NAVEGACIÓN -->
+    <!-- BARRA DE NAVEGACIÓN REESTRUCTURADA -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
         <div class="container-fluid d-flex align-items-center justify-content-between">
             
-            <!-- MARCA EN MAYÚSCULAS -->
+            <!-- MARCA PRINCIPAL IZQUIERDA -->
             <a class="navbar-brand fw-bold fs-3 text-white m-0" href="index.html">OPTIBAR</a>
 
-            <!-- BARRA DE BÚSQUEDA ÚNICA Y LARGA HORIZONTALMENTE -->
-            <div class="caja-busqueda-navbar mx-3">
+            <!-- BARRA DE BÚSQUEDA LARGA -->
+            <div class="caja-busqueda-navbar mx-2">
                 <form role="search">
                     <input class="form-control form-control-sm w-100 px-3 py-1" type="search" placeholder="Buscar productos, bebidas, servicios..." aria-label="Buscar">
                 </form>
             </div>
 
-            <!-- ENLACES DE NAVEGACIÓN -->
-            <div class="d-flex align-items-center">
-                <ul class="navbar-nav flex-row gap-3">
+            <!-- DERECHA: OPTIBAR + SLOGAN + ENLACES DE NAVEGACIÓN -->
+            <div class="d-flex align-items-center gap-3">
+                <!-- Marca y eslogan reubicados en la esquina superior derecha -->
+                <div class="text-end marca-superior-derecha d-none d-md-block">
+                    <h6 class="titulo-optibar-header fw-bold">OPTIBAR</h6>
+                    <p class="eslogan-optibar-header fw-bold text-uppercase">Administra • Optimiza • Destaca</p>
+                </div>
+
+                <!-- Enlaces de inicio e iniciar sesión -->
+                <ul class="navbar-nav flex-row gap-3 m-0">
                     <li class="nav-item">
                         <a class="nav-link active fw-bold" href="index.html">Inicio</a>
                     </li>
@@ -41,20 +48,9 @@
         </div>
     </nav>
 
-    <!-- CONTENEDOR PRINCIPAL / CONTENIDO DEL INDEX -->
-    <div class="container mt-5 mb-5 flex-grow-1 d-flex align-items-center justify-content-center">
-        <div class="col-md-10 p-5 caja-bienvenida-gris text-center shadow">
-            <h1 class="fw-bold display-4 text-dark mb-2">OPTIBAR</h1>
-            <p class="fs-5 fw-bold text-secondary mb-4">Administra • Optimiza • Destaca</p>
-            <p class="text-muted fs-6 col-md-9 mx-auto mb-4">
-                Plataforma integral para la gestión de inventarios, automatización de facturación, acumulación de puntos en billetera digital y solicitud de conductor elegido para un retorno vial seguro.
-            </p>
-            <div>
-                <a href="login_usuarios.html" class="btn btn-dark btn-lg px-4 py-2 fw-bold text-decoration-none">
-                    Ingresar al Sistema
-                </a>
-            </div>
-        </div>
+    <!-- CONTENEDOR PRINCIPAL LIMPIO (Sin el cuadro central, listo para futuros componentes) -->
+    <div class="container mt-4 mb-4 flex-grow-1">
+        <!-- El contenido central anterior fue eliminado como solicitaste -->
     </div>
 
     <!-- SECCIÓN CONÓCENOS (FOOTER) -->

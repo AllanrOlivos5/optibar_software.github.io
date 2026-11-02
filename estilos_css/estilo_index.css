@@ -13,9 +13,9 @@ body {
     min-height: 100vh;
 }
 
-/* BARRA DE BÚSQUEDA LARGA HORIZONTALMENTE (Ocupa el espacio central) */
+/* Barra de búsqueda larga horizontalmente */
 .caja-busqueda-navbar {
-    width: 60%; /* Extensión a lo largo del navbar */
+    width: 50%;
 }
 
 .caja-busqueda-navbar input {
@@ -24,11 +24,23 @@ body {
     border-radius: 6px !important;
 }
 
-/* Cuadro principal del Index en gris claro */
-.caja-bienvenida-gris {
-    background-color: #e9ecef !important;
-    border: 2px solid #ced4da;
-    border-radius: 12px;
+/* Estilos para la marca y eslogan reubicados en la esquina superior derecha */
+.marca-superior-derecha {
+    line-height: 1.1;
+}
+
+.titulo-optibar-header {
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.eslogan-optibar-header {
+    font-size: 0.6rem;
+    color: #d4a373;
+    margin: 0;
+    letter-spacing: 0.5px;
 }
 
 /* FOOTER ESTÁNDAR */
