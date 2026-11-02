@@ -38,7 +38,7 @@ body {
     font-weight: bold;
 }
 
-/* TÍTULO OPTIBAR GIGANTE SUELTO (Mismo tamaño del login en gris oscuro) */
+/* TÍTULO OPTIBAR GIGANTE SUELTO A LA IZQUIERDA */
 .titulo-optibar-suelto-oscuro {
     font-size: 5.5rem;
     letter-spacing: -1px;
@@ -58,6 +58,30 @@ body {
 .texto-eslogan-oscuro {
     color: #495057 !important;
     font-size: 1.2rem;
+}
+
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN UNIFICADA */
+.marca-superior-derecha {
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.titulo-optibar-header {
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.eslogan-optibar-header {
+    font-size: 0.55rem;
+    color: #d4a373;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    white-space: nowrap;
 }
 
 /* FOOTER CON TEXTOS PEQUEÑOS Y FINOS */

@@ -8,24 +8,34 @@
     <!-- Bootstrap 5 local -->
     <link rel="stylesheet" href="estilos_css/bootstrap.css">
     <!-- Hoja de estilos exclusiva del registro -->
-    <link rel="stylesheet" href="estilos_css/registro_usuarios.css">
+    <link rel="stylesheet" href="estilos_css/estilo_registro.css">
 </head>
 <body class="fondo-bar-cálido d-flex flex-column min-vh-100">
 
-    <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="index.html">OptiBar</a>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+    <!-- BARRA DE NAVEGACIÓN UNIFICADA (SIN BARRA DE BÚSQUEDA) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            
+            <!-- MARCA PRINCIPAL IZQUIERDA -->
+            <a class="navbar-brand fw-bold fs-3 text-white m-0" href="index.html">OPTIBAR</a>
+
+            <!-- DERECHA: OPTIBAR + SLOGAN + ENLACES DE NAVEGACIÓN DE CORRIDO -->
+            <div class="d-flex align-items-center gap-3">
+                <div class="text-end marca-superior-derecha">
+                    <h6 class="titulo-optibar-header fw-bold">OPTIBAR</h6>
+                    <p class="eslogan-optibar-header fw-bold text-uppercase">Administra • Optimiza • Destaca</p>
+                </div>
+
+                <ul class="navbar-nav flex-row gap-3 m-0 align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link fw-bold p-0" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login_usuarios.html">Iniciar Sesión</a>
+                        <a class="nav-link fw-bold p-0" href="login_usuarios.html">Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
@@ -107,7 +117,7 @@
         </div>
     </div>
 
-    <!-- SECCIÓN CONÓCENOS AL FINAL DE LA PÁGINA (FOOTER) -->
+    <!-- SECCIÓN CONÓCENOS (FOOTER) -->
     <footer class="footer-conocenos py-3 mt-auto">
         <div class="container text-center text-md-start">
             <div class="row align-items-center">
