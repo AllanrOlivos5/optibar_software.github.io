@@ -23,14 +23,14 @@ body {
     border-right: 3px solid #d4a373;
 }
 
-/* Cuadro grande del formulario en gris claro */
+/* Cuadro grande del formulario en gris claro (Idéntico al login) */
 .caja-formulario-gris {
     background-color: #e9ecef !important;
     border: 2px solid #ced4da;
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro para contraste */
+/* Campos de entrada (inputs y selects) en gris más oscuro (Idéntico al login) */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,32 +38,33 @@ body {
     font-weight: bold;
 }
 
-/* CAJA NEGRA GRANDE Y EXPANSIVA (Idéntica a la del Login) */
+/* Caja negra grande y expansiva de la marca (Idéntica al login) */
 .caja-titulo-marca-oscura {
     background-color: #343a40;
     color: #ffffff;
     border: 3px solid #212529;
     border-radius: 12px;
-    padding: 50px 20px;
+    padding: 40px 20px;
     width: 100%;
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
 /* TÍTULO OPTIBAR GIGANTE E IMPONENTE */
 .titulo-optibar-imponente {
-    font-size: 5.2rem;
+    font-size: 4.8rem;
     letter-spacing: -1px;
     line-height: 1;
     white-space: nowrap;
+    color: #ffffff !important;
 }
 
 /* Eslogan en tono beige claro */
 .texto-eslogan-beige {
     color: #f4ebd0 !important;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
 }
 
-/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS */
+/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS (Idéntico al login y recuperación) */
 .footer-conocenos {
     background-color: #212529;
     color: #f8f9fa;
