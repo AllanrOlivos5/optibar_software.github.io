@@ -23,14 +23,14 @@ body {
     border-right: 3px solid #d4a373;
 }
 
-/* Cuadro grande del formulario en gris claro (Idéntico al login) */
+/* Cuadro grande del formulario en gris claro */
 .caja-formulario-gris {
     background-color: #e9ecef !important;
     border: 2px solid #ced4da;
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro para contraste */
+/* Campos de entrada en gris más oscuro */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,33 +38,28 @@ body {
     font-weight: bold;
 }
 
-/* CAJA NEGRA GRANDE Y EXPANSIVA DE LA MARCA (Idéntica al login) */
-.caja-titulo-marca-oscura {
-    background-color: #343a40 !important;
-    color: #ffffff !important;
-    border: 3px solid #212529;
-    border-radius: 12px;
-    padding: 40px 20px;
-    width: 100%;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-}
-
-/* TÍTULO OPTIBAR GIGANTE E IMPONENTE */
-.titulo-optibar-imponente {
+/* TÍTULO OPTIBAR SUELTO (Sin caja negra, mismo tamaño gigante en gris oscuro) */
+.titulo-optibar-suelto-oscuro {
     font-size: 4.8rem;
     letter-spacing: -1px;
     line-height: 1;
     white-space: nowrap;
-    color: #ffffff !important;
+    color: #212529 !important;
 }
 
-/* Eslogan en tono beige claro */
-.texto-eslogan-beige {
-    color: #f4ebd0 !important;
+/* Subtítulo BAR LA OFICINA en gris oscuro medio */
+.texto-subtitulo-oscuro {
+    color: #495057 !important;
+    font-size: 1.5rem;
+}
+
+/* Eslogan en gris oscuro */
+.texto-eslogan-oscuro {
+    color: #6c757d !important;
     font-size: 1.1rem;
 }
 
-/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS (Idéntico al login) */
+/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS */
 .footer-conocenos {
     background-color: #212529 !important;
     color: #f8f9fa !important;
