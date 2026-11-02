@@ -1,0 +1,86 @@
+/* Tipografía Arial Black */
+body {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.texto-arial-black {
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+/* Fondo con tonos cálidos ambiente bar */
+.fondo-bar-cálido {
+    background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.contenedor-altura-completa {
+    min-height: 70vh;
+}
+
+/* Línea divisoria vertical */
+.border-divider-vertical {
+    border-right: 3px solid #d4a373;
+}
+
+/* Cuadro grande del formulario en gris claro (Idéntico al login) */
+.caja-formulario-gris {
+    background-color: #e9ecef !important;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+}
+
+/* Campos de entrada (inputs y selects) en gris más oscuro para contraste (Idéntico al login) */
+.input-fondo-oscuro {
+    background-color: #ced4da !important;
+    border: 2px solid #6c757d !important;
+    color: #212529 !important;
+    font-weight: bold;
+}
+
+/* Caja negra grande y expansiva de la marca (Idéntica al login) */
+.caja-titulo-marca-oscura {
+    background-color: #343a40;
+    color: #ffffff;
+    border: 3px solid #212529;
+    border-radius: 12px;
+    padding: 40px 20px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* TÍTULO OPTIBAR GIGANTE E IMPONENTE */
+.titulo-optibar-imponente {
+    font-size: 4.8rem;
+    letter-spacing: -1px;
+    line-height: 1;
+    white-space: nowrap;
+    color: #ffffff !important;
+}
+
+/* Eslogan en tono beige claro */
+.texto-eslogan-beige {
+    color: #f4ebd0 !important;
+    font-size: 1.1rem;
+}
+
+/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS (Idéntico al login) */
+.footer-conocenos {
+    background-color: #212529;
+    color: #f8f9fa;
+    border-top: 3px solid #d4a373;
+}
+
+.footer-conocenos h3 {
+    font-size: 1.1rem;
+}
+
+.footer-conocenos h6 {
+    font-size: 0.75rem;
+    color: #d4a373;
+}
+
+.footer-conocenos p {
+    font-size: 0.65rem;
+    line-height: 1.3;
+}
