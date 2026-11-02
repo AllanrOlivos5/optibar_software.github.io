@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
 }
 
-/* Contenedor principal para estirar la estructura */
+/* Contenedor principal */
 .contenedor-altura-completa {
     min-height: 70vh;
 }
@@ -30,7 +30,7 @@ body {
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro para mejor contraste */
+/* Campos de entrada (inputs y selects) en gris más oscuro */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,25 +38,41 @@ body {
     font-weight: bold;
 }
 
-/* Banner de marca corregido: más ancho (w-85 o 100%) y eslogan en color beige claro (#f4ebd0) */
+/* 1. CUADRO OSCURO IZQUIERDO MÁS GRANDE */
 .caja-titulo-marca-oscura {
     background-color: #343a40;
     color: #ffffff;
     border: 3px solid #212529;
-    border-radius: 10px;
-    padding: 35px 20px;
-    width: 85%; /* Ampliado para que OPTIBAR no se salga */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 50px 30px; /* Más padding para mayor presencia */
+    width: 95%;         /* Ocupa casi todo el ancho de su columna */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-/* Color beige claro para el eslogan */
+/* Eslogan en tono beige claro resaltado */
 .texto-eslogan-beige {
     color: #f4ebd0 !important;
+    font-size: 1.1rem;
 }
 
-/* Pie de página (Footer) CONÓCENOS en gris oscuro */
+/* 2. FOOTER (CONÓCENOS) CON INFORMACIÓN MÁS PEQUEÑA */
 .footer-conocenos {
     background-color: #212529;
     color: #f8f9fa;
     border-top: 3px solid #d4a373;
+}
+
+/* Estilos de texto compacto para los datos del footer */
+.footer-conocenos h3 {
+    font-size: 1.3rem;
+}
+
+.footer-conocenos h6 {
+    font-size: 0.85rem;
+    color: #d4a373; /* Tono cálido en los títulos pequeños */
+}
+
+.footer-conocenos p {
+    font-size: 0.75rem; /* Letra más pequeña para los datos */
+    line-height: 1.4;
 }
