@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
 }
 
+/* Contenedor principal */
 .contenedor-altura-completa {
     min-height: 70vh;
 }
@@ -22,14 +23,14 @@ body {
     border-right: 3px solid #d4a373;
 }
 
-/* Recuadro grande del formulario en gris claro */
+/* Cuadro grande del formulario en gris claro */
 .caja-formulario-gris {
     background-color: #e9ecef !important;
     border: 2px solid #ced4da;
     border-radius: 8px;
 }
 
-/* Campos de entrada en gris más oscuro */
+/* Campos de entrada (inputs y selects) en gris más oscuro */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -37,9 +38,31 @@ body {
     font-weight: bold;
 }
 
-/* Pie de página (Footer) CONÓCENOS */
+/* TÍTULO OPTIBAR IDÉNTICO AL DEL LOGIN (Grande, Arial Black, Mayúsculas) */
+.titulo-optibar-recuperacion {
+    font-size: 4.5rem;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #212529;
+}
+
+/* Pie de página (Footer) CONÓCENOS (Mismos tamaños exactos del Login) */
 .footer-conocenos {
     background-color: #212529;
     color: #f8f9fa;
     border-top: 3px solid #d4a373;
+}
+
+.footer-conocenos h3 {
+    font-size: 1.3rem;
+}
+
+.footer-conocenos h6 {
+    font-size: 0.85rem;
+    color: #d4a373;
+}
+
+.footer-conocenos p {
+    font-size: 0.75rem;
+    line-height: 1.4;
 }
