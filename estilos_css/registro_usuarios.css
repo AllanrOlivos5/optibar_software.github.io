@@ -1,4 +1,4 @@
-/* Tipografía Arial Black */
+/* Tipografía Arial Black general */
 body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
@@ -30,7 +30,7 @@ body {
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro (Idéntico al login) */
+/* Campos de entrada (inputs y selects) en gris más oscuro para contraste */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,33 +38,21 @@ body {
     font-weight: bold;
 }
 
-/* Caja negra grande y expansiva de la marca (Idéntica al login) */
-.caja-titulo-marca-oscura {
-    background-color: #343a40;
-    color: #ffffff;
-    border: 3px solid #212529;
-    border-radius: 12px;
-    padding: 40px 20px;
-    width: 100%;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-}
-
-/* TÍTULO OPTIBAR GIGANTE E IMPONENTE */
-.titulo-optibar-imponente {
-    font-size: 4.8rem;
+/* TÍTULO OPTIBAR SUELTO OSCURO (Sin recuadro, imponente) */
+.titulo-optibar-suelto {
+    font-size: 5rem;
     letter-spacing: -1px;
     line-height: 1;
-    white-space: nowrap;
-    color: #ffffff !important;
+    color: #212529 !important;
 }
 
-/* Eslogan en tono beige claro */
-.texto-eslogan-beige {
-    color: #f4ebd0 !important;
-    font-size: 1.1rem;
+/* Eslogan en tono cálido oscuro */
+.texto-eslogan-oscuro {
+    color: #5a4a32 !important;
+    font-size: 1.15rem;
 }
 
-/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS (Idéntico al login y recuperación) */
+/* FOOTER CON TEXTOS PEQUEÑOS Y FINOS (Idéntico al login) */
 .footer-conocenos {
     background-color: #212529;
     color: #f8f9fa;
