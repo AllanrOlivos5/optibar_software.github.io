@@ -1,4 +1,4 @@
-/* Tipografía Arial Black */
+/* Tipografía Arial Black general */
 body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
@@ -7,7 +7,7 @@ body {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-/* Fondo con tonos cálidos ambiente bar */
+/* Fondo cálido ambiente bar */
 .fondo-bar-cálido {
     background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
     min-height: 100vh;
@@ -30,7 +30,7 @@ body {
     border-radius: 8px;
 }
 
-/* Campos de entrada (inputs y selects) en gris más oscuro */
+/* Campos de entrada en gris más oscuro */
 .input-fondo-oscuro {
     background-color: #ced4da !important;
     border: 2px solid #6c757d !important;
@@ -38,48 +38,72 @@ body {
     font-weight: bold;
 }
 
-/* CAJA NEGRA GRANDE Y EXPANSIVA (Ocupa todo el ancho de su columna) */
+/* Caja negra de la marca a la izquierda */
 .caja-titulo-marca-oscura {
     background-color: #343a40;
     color: #ffffff;
     border: 3px solid #212529;
     border-radius: 12px;
-    padding: 50px 20px;
-    width: 100%;       /* ¡Ahora abarca todo el ancho de la columna izquierda! */
+    padding: 40px 20px;
+    width: 100%;
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
-/* TÍTULO OPTIBAR GIGANTE AL BORDE DEL NUEVO CUADRO GRANDE */
 .titulo-optibar-imponente {
-    font-size: 5.5rem;  /* Tamaño masivo */
+    font-size: 4.8rem;
     letter-spacing: -1px;
     line-height: 1;
     white-space: nowrap;
+    color: #ffffff !important;
 }
 
-/* Eslogan en tono beige claro */
 .texto-eslogan-beige {
     color: #f4ebd0 !important;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
 }
 
-/* Pie de página (Footer) CONÓCENOS */
+/* Estilos para la marca y eslogan reubicados en la esquina superior derecha del Navbar */
+.marca-superior-derecha {
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.titulo-optibar-header {
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.eslogan-optibar-header {
+    font-size: 0.55rem;
+    color: #d4a373;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* Enlaces del navbar de corrido */
+.nav-link {
+    white-space: nowrap;
+}
+
+/* FOOTER ESTÁNDAR */
 .footer-conocenos {
-    background-color: #212529;
-    color: #f8f9fa;
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
     border-top: 3px solid #d4a373;
 }
 
 .footer-conocenos h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .footer-conocenos h6 {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #d4a373;
 }
 
 .footer-conocenos p {
-    font-size: 0.75rem;
-    line-height: 1.4;
+    font-size: 0.65rem;
+    line-height: 1.3;
 }

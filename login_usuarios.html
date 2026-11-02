@@ -12,37 +12,47 @@
 </head>
 <body class="fondo-bar-cálido d-flex flex-column min-vh-100">
 
-    <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="index.html">OptiBar</a>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+    <!-- BARRA DE NAVEGACIÓN NUEVA (SIN BARRA DE BÚSQUEDA) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            
+            <!-- MARCA PRINCIPAL IZQUIERDA -->
+            <a class="navbar-brand fw-bold fs-3 text-white m-0" href="index.html">OPTIBAR</a>
+
+            <!-- DERECHA: OPTIBAR + SLOGAN + ENLACES DE NAVEGACIÓN DE CORRIDO -->
+            <div class="d-flex align-items-center gap-3">
+                <div class="text-end marca-superior-derecha d-none d-xl-block">
+                    <h6 class="titulo-optibar-header fw-bold">OPTIBAR</h6>
+                    <p class="eslogan-optibar-header fw-bold text-uppercase">Administra • Optimiza • Destaca</p>
+                </div>
+
+                <ul class="navbar-nav flex-row gap-3 m-0 align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link fw-bold p-0" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="login_usuarios.html">Iniciar Sesión</a>
+                        <a class="nav-link active fw-bold p-0" href="login_usuarios.html">Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
-    <!-- CONTENEDOR PRINCIPAL -->
+    <!-- CONTENEDOR PRINCIPAL DEL LOGIN -->
     <div class="container mt-4 mb-5 flex-grow-1">
         <div class="row d-flex align-items-stretch contenedor-altura-completa">
             
-            <!-- COLUMNA IZQUIERDA: Caja negra grande y expansiva con OPTIBAR imponente -->
+            <!-- COLUMNA IZQUIERDA: Caja negra con la marca -->
             <div class="col-md-6 border-divider-vertical d-flex align-items-center justify-content-center p-3">
                 <div class="caja-titulo-marca-oscura text-center">
-                    <h1 class="fw-bold text-white mb-3 titulo-optibar-imponente">OPTIBAR</h1>
+                    <h1 class="fw-bold mb-3 titulo-optibar-imponente">OPTIBAR</h1>
                     <p class="fs-4 text-light text-uppercase mb-3">BAR LA OFICINA</p>
                     <p class="texto-eslogan-beige fw-bold mb-0">Administra • Optimiza • Destaca</p>
                 </div>
             </div>
 
-            <!-- COLUMNA DERECHA: Formulario de Iniciar Sesión -->
+            <!-- COLUMNA DERECHA: Formulario de Login -->
             <div class="col-md-6 d-flex align-items-center p-4">
                 <div class="w-100 p-4 caja-formulario-gris shadow-sm">
                     
@@ -52,7 +62,6 @@
                     </p>
 
                     <form>
-                        <!-- Campo: Tipo de Documento -->
                         <div class="mb-2">
                             <label class="form-label fw-bold small mb-1">Tipo de Documento:</label>
                             <select class="form-select form-select-sm input-fondo-oscuro">
@@ -63,36 +72,33 @@
                             </select>
                         </div>
 
-                        <!-- Campo: Número de documento -->
                         <div class="mb-2">
                             <label class="form-label fw-bold small mb-1">Número de documento:</label>
                             <input type="number" class="form-control form-control-sm input-fondo-oscuro">
                         </div>
 
-                        <!-- Campo: Password -->
                         <div class="mb-3">
                             <label class="form-label fw-bold small mb-1">Password:</label>
                             <input type="password" class="form-control form-control-sm input-fondo-oscuro">
                         </div>
 
-                        <!-- Enlaces -->
-                        <div class="mb-2">
+                        <div class="mb-3 d-flex flex-column gap-1">
                             <a href="recuperacion_password.html" class="text-primary fw-bold small text-decoration-underline">
                                 Olvidé mi contraseña
                             </a>
-                        </div>
-                        <div class="mb-3">
-                            <span class="small">¿No tienes cuenta? </span>
-                            <a href="registro_usuarios.html" class="text-primary fw-bold small text-decoration-underline">
-                                Regístrate aquí
-                            </a>
+                            <div>
+                                <span class="small">¿No tienes cuenta? </span>
+                                <a href="registro_usuarios.html" class="text-primary fw-bold small text-decoration-underline">
+                                    Regístrate aquí
+                                </a>
+                            </div>
                         </div>
 
                         <!-- Botón Ingresar -->
                         <div class="text-end">
-                            <button type="button" class="btn btn-dark btn-sm px-4 py-1 fw-bold">
+                            <a href="index.html" class="btn btn-dark btn-sm px-4 py-1 fw-bold text-decoration-none">
                                 Ingresar
-                            </button>
+                            </a>
                         </div>
                     </form>
 
@@ -102,7 +108,7 @@
         </div>
     </div>
 
-    <!-- SECCIÓN CONÓCENOS AL FINAL DE LA PÁGINA (FOOTER) -->
+    <!-- SECCIÓN CONÓCENOS (FOOTER) -->
     <footer class="footer-conocenos py-3 mt-auto">
         <div class="container text-center text-md-start">
             <div class="row align-items-center">
@@ -112,13 +118,13 @@
                 </div>
                 <div class="col-md-4 mb-2 mb-md-0">
                     <h6 class="fw-bold text-uppercase mb-1">Contacto</h6>
-                    <p class="mb-0">Teléfono:</p>
-                    <p class="mb-0">Dirección:</p>
+                    <p class="mb-0">Teléfono: +57 300 123 4567</p>
+                    <p class="mb-0">Dirección: Bar La Oficina, Centro</p>
                 </div>
                 <div class="col-md-4">
                     <h6 class="fw-bold text-uppercase mb-1">Redes Sociales</h6>
-                    <p class="mb-0">Instagram:</p>
-                    <p class="mb-0">TikTok</p>
+                    <p class="mb-0">Instagram: @OptiBar_Oficial</p>
+                    <p class="mb-0">Facebook: OptiBar Colombia</p>
                 </div>
             </div>
         </div>
